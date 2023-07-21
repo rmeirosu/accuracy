@@ -14,7 +14,7 @@ public class Main {
         /*Both results are 0.8.
         Difference between result1 and result2 should be zero.*/
 
-        double  difference = result1 - result2;
+        double difference = result1 - result2;
         System.out.printf("The difference is %.99f %n", difference);
         /*The actual result is close to zero but not exactly zero.
         Some numbers can't be represented exactly in binary format.*/
@@ -31,8 +31,8 @@ public class Main {
         System.out.printf("result3 is %.99f %n", result3);
         System.out.printf("result4 is %.99f %n", result4);
 
-        double  difference2 = result3 - result4;
-        System.out.printf("The difference2 is %.99f %n", difference);
+        double difference2 = result3 - result4;
+        System.out.printf("The difference2 is %.99f %n", difference2);
 
         /* Floating point arithmetic isn't completely accurate.
         BigDecimal solves most of the problems with rounding.*/
